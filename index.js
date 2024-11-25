@@ -59,3 +59,5 @@ http.createServer((req, res) => {
   // Log a message to the console indicating that the server is running
   console.log(`Server running on port ${port}`);
 });
+
+// http://localhost:3000
