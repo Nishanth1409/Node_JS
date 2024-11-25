@@ -3,6 +3,9 @@ const http = require('http');
 const port = 3000;
 
 http.createServer((req, res) => {
+  // const {url, method} = req;
+  // console.log(url, method);
+  
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write("<h2>Hello World</h2>");
   res.end();
