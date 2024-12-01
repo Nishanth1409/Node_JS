@@ -15,5 +15,7 @@
     "url": "https://github.com/Nishanth1409/Node_JS/issues"
   },
   "homepage": "https://github.com/Nishanth1409/Node_JS#readme",
-  "description": ""
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }

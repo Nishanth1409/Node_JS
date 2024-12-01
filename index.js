@@ -23,4 +23,4 @@ http.createServer((req, res)=> {
 .listen(port, ()=>{
     console.log(`NodeJs server is up and running on port ${port}`)
 })
-// http://localhost:3000
+// http://localhost:3000/todo
